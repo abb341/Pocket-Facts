@@ -11,7 +11,7 @@ import UIKit
 class RecentFactTableViewCell: UITableViewCell {
 
     @IBOutlet weak var contentOfFact: UILabel!
-        
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

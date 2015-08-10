@@ -83,6 +83,7 @@
                     </view>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="Today" id="tNw-u9-oU2" userLabel="Today">
+                        <barButtonItem key="backBarButtonItem" title="Today" id="kBu-xC-1iO"/>
                         <barButtonItem key="leftBarButtonItem" image="Home" id="Vda-TF-g0n" userLabel="Menu Bar Button Item">
                             <connections>
                                 <segue destination="k8s-qh-idf" kind="show" id="Qe3-Kr-QP7"/>
@@ -97,6 +98,7 @@
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="factOfTheDay" destination="StU-rA-fEI" id="DRu-bg-QOI"/>
+                        <outlet property="todayLabel" destination="tNw-u9-oU2" id="GfK-Yx-0cY"/>
                         <outlet property="todayView" destination="w7c-Me-L75" id="8vn-8A-nIX"/>
                     </connections>
                 </viewController>
@@ -472,10 +474,10 @@
                                     </subviews>
                                     <color key="backgroundColor" red="0.1960784314" green="0.1960784314" blue="0.1960784314" alpha="1" colorSpace="calibratedRGB"/>
                                     <constraints>
-                                        <constraint firstItem="FAB-hJ-vJH" firstAttribute="leading" secondItem="8m2-Ii-AXa" secondAttribute="leadingMargin" constant="-3" id="I2u-mM-dMv"/>
-                                        <constraint firstItem="FAB-hJ-vJH" firstAttribute="centerY" secondItem="8m2-Ii-AXa" secondAttribute="centerY" id="ZJX-l5-Eua"/>
-                                        <constraint firstItem="FAB-hJ-vJH" firstAttribute="top" secondItem="8m2-Ii-AXa" secondAttribute="topMargin" constant="7" id="bIp-be-Kah"/>
-                                        <constraint firstItem="FAB-hJ-vJH" firstAttribute="centerX" secondItem="8m2-Ii-AXa" secondAttribute="centerX" id="drd-D3-TI2"/>
+                                        <constraint firstItem="FAB-hJ-vJH" firstAttribute="centerY" secondItem="8m2-Ii-AXa" secondAttribute="centerY" id="1ZY-1E-Mi8"/>
+                                        <constraint firstItem="FAB-hJ-vJH" firstAttribute="leading" secondItem="8m2-Ii-AXa" secondAttribute="leadingMargin" constant="-3" id="j7u-Nb-trP"/>
+                                        <constraint firstItem="FAB-hJ-vJH" firstAttribute="centerX" secondItem="8m2-Ii-AXa" secondAttribute="centerX" id="pwp-6I-Uf6"/>
+                                        <constraint firstItem="FAB-hJ-vJH" firstAttribute="top" secondItem="8m2-Ii-AXa" secondAttribute="topMargin" constant="7" id="qrd-Ah-buo"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>

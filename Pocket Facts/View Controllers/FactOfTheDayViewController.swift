@@ -14,6 +14,7 @@ class FactOfTheDayViewController: UIViewController {
     //Outlets
     @IBOutlet var todayView: UIView!
     @IBOutlet weak var factOfTheDay: UILabel!
+    @IBOutlet weak var todayLabel: UINavigationItem!
     
     //Actions
     @IBAction func presentNavigation(sender: AnyObject?){
@@ -65,6 +66,7 @@ class FactOfTheDayViewController: UIViewController {
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
         hideActivityIndicator()
+        todayLabel.title = DateHelper.getDateAsString()
         
         println("Started Query")
         var query = PFQuery(className: "Total")

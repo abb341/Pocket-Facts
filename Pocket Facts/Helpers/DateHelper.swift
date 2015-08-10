@@ -32,6 +32,17 @@ class DateHelper {
         return factNumber
     }
     
+    static func getDateAsString() -> String {
+        let date = NSDate()
+        let calendar = NSCalendar.currentCalendar()
+        let month = calendar.component(.CalendarUnitMonth, fromDate: date)
+        let day = calendar.component(.CalendarUnitDay, fromDate: date)
+        let year = calendar.component(.CalendarUnitYear, fromDate: date)
+        
+        let dateAsString = "\(month)/\(day)/\(year)"
+        return dateAsString
+    }
+    
     static func recentFactNumbers(var numberOfFacts: Int) -> [Int] {
         let TODAYS_FACT_NUMBER = DateHelper.getTodaysFactNumber(numberOfFacts)
         
