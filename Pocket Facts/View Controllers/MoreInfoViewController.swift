@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Mixpanel
 
 class MoreInfoViewController: UIViewController {
     @IBOutlet weak var factDetailLabel: UILabel!
@@ -21,6 +22,8 @@ class MoreInfoViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        let mixpanel: Mixpanel = Mixpanel.sharedInstance()
+        mixpanel.track("Recent Facts Details")
     }
     
     override func viewWillAppear(animated: Bool) {

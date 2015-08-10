@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Mixpanel
 
 class WebViewController: UIViewController, UIWebViewDelegate  {
     
@@ -40,6 +41,8 @@ class WebViewController: UIViewController, UIWebViewDelegate  {
         // Do any additional setup after loading the view.
         configureWebView()
         loadAddressURL()
+        let mixpanel: Mixpanel = Mixpanel.sharedInstance()
+        mixpanel.track("Webview Loaded")
     }
 
     override func viewWillDisappear(animated: Bool) {

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Mixpanel
 
 class LearnMoreViewController: UIViewController {
     //Outlets
@@ -25,6 +26,8 @@ class LearnMoreViewController: UIViewController {
         // Do any additional setup after loading the view.
         factDetails.text = factDetailsText
         sourceName.setTitle(source, forState: .Normal)
+        let mixpanel: Mixpanel = Mixpanel.sharedInstance()
+        mixpanel.track("Fact of the Day Details")
     }
 
     override func didReceiveMemoryWarning() {

@@ -8,6 +8,7 @@
 
 import UIKit
 import MessageUI
+import Mixpanel
 
 class HomeViewController: UIViewController, MFMailComposeViewControllerDelegate {
 
@@ -24,6 +25,8 @@ class HomeViewController: UIViewController, MFMailComposeViewControllerDelegate 
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
+        let mixpanel: Mixpanel = Mixpanel.sharedInstance()
+        mixpanel.track("Home")
     }
     
     // MARK: MessageUI

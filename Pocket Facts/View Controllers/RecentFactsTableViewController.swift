@@ -8,6 +8,7 @@
 
 import UIKit
 import Parse
+import Mixpanel
 
 class RecentFactsTableViewController: UIViewController {
     //Outlets
@@ -29,6 +30,9 @@ class RecentFactsTableViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let mixpanel: Mixpanel = Mixpanel.sharedInstance()
+        mixpanel.track("Recent Facts")
         
         tableView.dataSource = self
         tableView.delegate = self

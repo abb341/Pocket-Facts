@@ -8,6 +8,7 @@
 
 import UIKit
 import Parse
+import Mixpanel
 
 class FactOfTheDayViewController: UIViewController {
     //Outlets
@@ -31,6 +32,8 @@ class FactOfTheDayViewController: UIViewController {
             
             self.presentViewController(activityVC, animated: true, completion: nil)
         }
+        let mixpanel: Mixpanel = Mixpanel.sharedInstance()
+        mixpanel.track("Share Button Pressed")
     }
     
     //Properties
@@ -51,7 +54,6 @@ class FactOfTheDayViewController: UIViewController {
         
         // Do any additional setup after loading the view.
         showActivityIndicator(todayView)
-        
     }
     
     override func didReceiveMemoryWarning() {
@@ -59,16 +61,19 @@ class FactOfTheDayViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
         hideActivityIndicator()
         
+        println("Started Query")
         var query = PFQuery(className: "Total")
         total = query.findObjects() as? [Total] ?? []
+        println("Ended Query")
         numberOfFacts = total[0].numberOfFacts
         
-        
         factNumber = DateHelper.getTodaysFactNumber(numberOfFacts)
+
         
             //display fact through Parse
             println("Accessing Parse")

@@ -13,12 +13,12 @@ class DateHelper {
     // initialize the date formatter only once, using a static computed property
     static var dateFormatter: NSDateFormatter = {
         var formatter = NSDateFormatter()
-        formatter.dateFormat = "yyyy-MM-dd"
+        formatter.dateFormat = "MM/dd/yyyy"
         return formatter
         }()
     
     static func getTodaysFactNumber(var numberOfFacts: Int) -> Int {
-        let LAUNCH_DATE = DateHelper.dateFormatter.dateFromString("2015-08-01")
+        let LAUNCH_DATE = DateHelper.dateFormatter.dateFromString("08/01/2015")
         let calendar = NSCalendar.currentCalendar()
         let days = NSCalendar.currentCalendar().components(NSCalendarUnit.CalendarUnitDay, fromDate: LAUNCH_DATE!, toDate: NSDate(), options: nil).day
         var factNumber = days + 1
