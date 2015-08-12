@@ -498,7 +498,7 @@
 			baseConfigurationReference = E91B3E97172D21E3AFC04D85 /* Pods-Pocket Facts.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: George Brown (8V6FMZ9QS6)";
 				INFOPLIST_FILE = "Pocket Facts/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -512,7 +512,7 @@
 			baseConfigurationReference = E646247359B8A61477894660 /* Pods-Pocket Facts.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: George Brown (8V6FMZ9QS6)";
 				INFOPLIST_FILE = "Pocket Facts/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
