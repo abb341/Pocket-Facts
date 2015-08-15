@@ -39,7 +39,7 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-Pocket Facts.xcscheme</key>
+		<key>Pods-PocketFacts.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -47,42 +47,42 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>083505DD54A161DF9B16F88433F97172</key>
+		<key>22A44B018275772BF5AE6E23233A3E05</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>10F88EF2100BD63706022D3A5758C5C4</key>
+		<key>305512A23014C2436FB02854ABAF926B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5798F41BDCCB1D7F7404206A969324AB</key>
+		<key>43F8868D7AE3B140DBB490757BDBEE65</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>61320C15CB6588A6D03429A5D66D88CC</key>
+		<key>4FDCFEAB561B64F7C27629BE938ABD8E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>AEB9687A4C1525E1659FADF56AEFF394</key>
+		<key>529F27E16BE12BD6531C1EB8A29C8B02</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B9272EAEC9016BA9824EC5A2B00128B1</key>
+		<key>66E08CA67A9AEB635DC06F4BE6730473</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C9E34896B1AEC8F652C86FE6426D32AA</key>
+		<key>B90A4D6A3A9E33511A2F496989B0B133</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>DD89DB82D4E3671AF2476205F3A693E6</key>
+		<key>BFC18D4BAAE34DD356F0E1A815012282</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -1,7 +1,7 @@
 platform :ios, '8.0'
 use_frameworks!
 
-target 'Pocket Facts' do
+target 'PocketFacts' do
 
 pod 'Parse'
 pod 'ParseUI'
@@ -11,7 +11,7 @@ pod 'Mixpanel'
 
 end
 
-target 'Pocket FactsTests' do
+target 'PocketFactsTests' do
 
 end
 

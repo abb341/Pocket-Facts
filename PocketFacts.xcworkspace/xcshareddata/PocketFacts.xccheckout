@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>59D902EF-F605-4CEB-8E55-75A9BFA11D92</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PocketFacts</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>032523DA3BFA9F8A42998861C2B1EEA17612C5A4</key>
+		<string>https://github.com/abb341/Pocket-Facts.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PocketFacts.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>032523DA3BFA9F8A42998861C2B1EEA17612C5A4</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/abb341/Pocket-Facts.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>032523DA3BFA9F8A42998861C2B1EEA17612C5A4</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>032523DA3BFA9F8A42998861C2B1EEA17612C5A4</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PocketFacts</string>
+		</dict>
+	</array>
+</dict>
+</plist>
